@@ -19,7 +19,7 @@ public class Hello {
 		int myLastOne = 1000 - myTotal;
 
 		System.out.println(myTotal);
-
+		// print last one
 		System.out.println(myLastOne);
 
 	}

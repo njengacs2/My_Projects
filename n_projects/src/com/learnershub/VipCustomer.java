@@ -37,6 +37,11 @@ public class VipCustomer {
 	public static void main(String[] args) {
 		VipCustomer myCustomer = new VipCustomer("Kim", 500.0, "kim@email.com");
 		System.out.println("Name :" + myCustomer.getName() + " and his credit is : " + myCustomer.getCreditLimit());
+
+		VipCustomer customer1 = new VipCustomer();
+		VipCustomer customer2 = new VipCustomer("James", 5000);
+		VipCustomer customer3 = new VipCustomer("Wayne", 4000, "wayne@email.com");
+
 	}
 
 //********************************************
